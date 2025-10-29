@@ -62,18 +62,19 @@ AddToHomeScreen({
   <img width="560px" src="https://user-images.githubusercontent.com/11155743/57544456-0c2f6c80-7360-11e9-96ec-a4ee59d5bbac.jpg" alt="config example"/>
 </p>
 
-|~|Description|Default|
-|---|---|---|
-|`backgroundColor`|Background color for container|`#f9f9f9`|
-|`padding`|Padding for container|`10px`|
-|`shadowColor`|Shadow color for top of container|`#e9e9e9`|
-|`shadowSize`|Shadow size for top of container|`10px`|
-|`fontFamily`|Font family for content in container|`-apple-system, sans-serif`|
-|`color`|Font color for content in container|`#5d5d5d`|
-|`fontSize`|Font size for content in container|`0.9rem`|
-|`brandName`|Brand for default `htmlContent`|`""`|
-|`logoImage`|Logo for container|[`inline SVG`](https://github.com/koddr/a2hs.js/blob/master/img/pwa_logo.svg)|
-|`htmlContent`|Content for container with HTML|`Install <strong>{{brandName}} web app</strong> on your iOS device: tap share and <strong>Add to Home Screen</strong> ↓`|
+| ~                 | Description                          | Default                                                                                                                  |
+|-------------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| `backgroundColor` | Background color for container       | `#f9f9f9`                                                                                                                |
+| `padding`         | Padding for container                | `10px`                                                                                                                   |
+| `shadowColor`     | Shadow color for top of container    | `#e9e9e9`                                                                                                                |
+| `shadowSize`      | Shadow size for top of container     | `10px`                                                                                                                   |
+| `fontFamily`      | Font family for content in container | `-apple-system, sans-serif`                                                                                              |
+| `color`           | Font color for content in container  | `#5d5d5d`                                                                                                                |
+| `fontSize`        | Font size for content in container   | `0.9rem`                                                                                                                 |
+| `brandName`       | Brand for default `htmlContent`      | `""`                                                                                                                     |
+| `logoImage`       | Logo for container                   | [`inline SVG`](https://github.com/koddr/a2hs.js/blob/master/img/pwa_logo.svg)                                            |
+| `htmlContent`     | Content for container with HTML      | `Install <strong>{{brandName}} web app</strong> on your iOS device: tap share and <strong>Add to Home Screen</strong> ↓` |
+| `click`           | Custom callback on click event       | `() => {console.log('div was clicked')}`                                                                                  |
 
 ## Demo
 

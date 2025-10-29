@@ -90,6 +90,10 @@ var AddToHomeScreen = function (settings = {}) {
     div.onclick = function (event) {
       // Prevent default click
       event.preventDefault();
+      // Call custom call if any
+      if(settings.click && typeof settings.click === 'function') {
+        settings.click();
+      }
       // Hide a2hs_message
       window.localStorage.setItem("a2hs_message", "hide");
       // Remove a2hs container from DOM
